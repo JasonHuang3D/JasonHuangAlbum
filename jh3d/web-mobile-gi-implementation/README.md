@@ -2,6 +2,9 @@
 ## Theory
 [Real-Time Diffuse Global Illumination Using Radiance Hints](http://graphics.cs.aueb.gr/graphics/docs/papers/RadianceHintsPreprint.pdf)
 
+## Demo
+[Live video](https://youtu.be/7dbt_oMA4ts)
+
 ## Overview
 Web/Mobile platforms don't have such high performance GPU compare to Desktop ones. So this article is mainly aimed for explaining **a High Performance Implementation** that targets to Web/Mobile platforms. It only requires a few low-cost scene-independent geometry for radiance computation, and does not require any additional rendering of the scene’s geometry except Reflective Shadow Map(RSM) generation which costs pretty much the same as shadow map dose. 
 Method overview:
